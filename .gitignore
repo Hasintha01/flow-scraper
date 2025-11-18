@@ -38,8 +38,11 @@ venv.bak/
 reports/
 *.json
 *.html
+# Do not ignore markdown docs we want in the repo
 *.md
 !README.md
+!USAGE.md
+!ARCHITECTURE.md
 
 # Logs
 *.log
